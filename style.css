@@ -39,6 +39,8 @@ header {
     flex-wrap: wrap;
     /* Permite que los elementos se acomoden en pantallas pequeñas */
 }
+a{ text-decoration: none;
+}
 
 .nav-list a {
     text-decoration: none;
@@ -217,6 +219,11 @@ article img {
 
 .nav-list li:hover {
     color: #1abc9c;
+}
+
+.contactoss{
+    display: flexbox;
+    align-items: center;
 }
 
 /* Animaciones */
